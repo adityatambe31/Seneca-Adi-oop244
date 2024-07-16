@@ -1,0 +1,15 @@
+Name  : Aditya Mahesh Tambe
+Student Id: 171969223
+Email: amtambe@myseneca.ca
+
+My declaration: I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+
+My reflection:
+
+We delved into some of advanced C++ concepts which were both intimidating and exhilarating in the workshop. One of the important Performed topics is How you can access and perform a Lets say a private member functions and variables. We have discovered several special know-how (friend classes, special testing frameworks) to be able to access those private members and fully test & debug your work.
+
+We also looked into constructors and destructors. Setting default values in constructors is important to avoid garbage value storage in variables. In another post, we have seen how to allocate and deallocate memory properly in constructors and destructors to take care of efficient memory management and hence preventing memory leaks.
+
+An additional interesting point: the usage of cout function with width and precision settings. This helps us to format it in a way that it seems more human read-able and human understandable. Like, by changing the precision, we can limit the number of decimal places on our screen, by using width and fill, we can give our output a nice alignment.
+
+In all this the workshop was a good leaner. It dealt with some very new things for me, and was difficult and interesting because of this. With these improved skills, I cannot wait to implement them into future projects and workshops which will in turn improve my coding skills.

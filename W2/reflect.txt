@@ -1,0 +1,92 @@
+Name: Aditya Mahesh Tambe
+Student Id: 171696223
+Email: amtambe@myseneca.ca
+
+I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+
+My Reflection:
+
+For this workshop I learnt how to allocate and deallocate the dynamic memory. I believe this is the basic step towards the management of memory and is very important for the future while dealing with big data and its structures in C++.
+
+
+The snippet of my code for part1 was:
+
+bool load() {
+      bool ok = false;
+      int i = 0;
+      if (openFile(DATAFILE)) 
+      {            
+	    noOfEmployees = noOfRecords();
+            employees = new Employee[noOfEmployees];
+
+            int noOfLoadedEmployees=0;
+            for (i = 0; i < noOfLoadedEmployees; i++)
+            {
+               noOfEmployees++;
+            }
+            
+
+            if (noOfLoadedEmployees != noOfEmployees)
+            {
+               cout<<"Error: incorrect number of records read; the data is possibly corrupted"<<endl;
+            }
+            
+            sort();
+
+            closeFile();
+      }
+      else {
+         cout << "Could not open data file: " << DATAFILE<< endl;
+      }
+      return ok;
+   }
+
+In my above code, It shows how memory is been allocated for the Employee array with the records number.
+
+The snippet of my code for part1 was:
+
+   void deallocateMemory()
+   {
+      for(int i=0; i< noOfEmployees; i++)
+      {
+            delete employees[i].m_name;
+      }
+
+      delete employees;
+   }
+}
+
+In my above code, it shows how the memory is been deallocated. This makes the memory leakproof after the deallocation of each Employee's names and their array itself.
+
+Moreover, I learnt function overloading. For instance by implementing the below three overloading function I used in my code, wth tehe same name that is "read" but with different parameters assigned.
+
+   bool read(char empName[]) 
+   {
+      int read = fscanf(fptr, "%[^\n]\n", empName);
+      return read == 1;
+   }
+
+
+   bool read(int &empNumber) 
+   {
+      int read = fscanf(fptr, "%d,", empNumber);
+      return read == 1;
+   }
+
+
+   bool read(double &empSalary) 
+   {
+      int read = fscanf(fptr, "%lf,", empSalary);
+      return read == 1;
+   }
+}
+
+Overloading the function helped and improved my writing of code, which resulted easier in approach and maintainability of it and reuseability.
+
+All in all, I would say I learnt the way of using references, how to use them in my code. This resulted an important thing as for manipulating the data from a function with its parameters, and not using the pointers. This also brought an improvement in my code too. 
+
+
+
+
+
+
