@@ -1,0 +1,14 @@
+In line number 58 of your output:
+The output should be:
+Capacity: 2345
+            ^
+But your output is: 
+Capacity: 2354
+            ^
+
+Unmatched character details:
+The character in column 13 is supposed to be:
+  [4] ASCII code(52)
+but you printed
+  [5] ASCII code(53)
+
