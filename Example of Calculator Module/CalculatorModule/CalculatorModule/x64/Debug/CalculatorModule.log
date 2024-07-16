@@ -1,6 +1,0 @@
-﻿  Calculator.cpp
-  Tester.cpp
-  testmain.cpp
-C:\Users\tambe\Desktop\Adi-OOP244\Learning\Example of Calculator Module\CalculatorModule\testmain.cpp(12,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-  Generating Code...
-  CalculatorModule.vcxproj -> C:\Users\tambe\Desktop\Adi-OOP244\Learning\Example of Calculator Module\CalculatorModule\x64\Debug\CalculatorModule.exe
